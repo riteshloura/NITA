@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgba(48, 48, 44, 0.5);
+    /* background-color: black; */
+    color: white;
+    position: fixed;
+}
+
+.nav-ul {
+    display: flex;
+    margin: 0;
+    padding: 15px 15px 15px 45px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    margin: 18px;
+}
+
+.top-container {
+    margin: 0px;
+    height: 800px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(images/pexels-katerina-holmes-5907901.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-container-content {
+    height: 250px;
+    width: 600px;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+.mid-h1 {
+    /* margin-left: 43%; */
+    text-align: center;
+}
+
+.middle-container {
+    height: 457px;
+    /* border:2px solid red; */
+    display: flex;
+}
+
+.middle-container-common {
+    height: 400px;
+    width: 33%;
+    margin: 50px;
+    margin-top: 0;
+    border: 2px solid red;
+    background-color: rgb(250, 241, 229);
+    border-radius: 19px;
+}
+
+.img-mid-1 {
+    height: 170px;
+    width: 170px;
+    margin-left: 90px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+
+.middle-h2 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: center;
+    margin: 0 10px 0 10px;
+    line-height: 1.2;
+}
+
+.bottom {
+    margin: 0;
+    height: 250px;
+    /* border:2px solid red; */
+}
+
+footer::before {
+    background: url(images/pexels-ella-olsson-1640777.jpg);
+    position: absolute;
+    content: "";
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    opacity: 0.85;
+}
+
+.bottom-img {
+    height: 90px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#bottom-img-apple {
+    margin-left: 350px;
+}
+
+@media (max-width : 600px) {
+    .middle-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

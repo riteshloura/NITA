@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: rgb(80, 75, 75);
+        }
+
+        .container {
+            height: 620px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container-1 {
+            background-color: rgb(255, 243, 243);
+            border-radius: 10px;
+            border: 2px solid red;
+            height: 350px;
+            width: 450px;
+        }
+
+        h1 {
+            margin-left: 185px;
+            color: rgb(80, 75, 75);
+        }
+
+        form {
+            margin-left: 40px
+        }
+
+        input {
+            margin: 20px;
+            height: 29px;
+            width: 210px
+        }
+
+        label {
+            font-size: 20px;
+        }
+
+        .name {
+            color: rgb(80, 75, 75);
+        }
+
+        .password {
+            margin-left: 29px;
+        }
+
+        .btn {
+            margin-left: 200px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: rgb(80, 75, 75);
+            ;
+            color: aliceblue;
+            border: none;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background-color: rgb(88, 84, 84);
+        }
+
+        p {
+            color: blue;
+            margin-left: 130px;
+        }
+
+        @media (max-width:400px) {
+            h1 {
+                margin-left: 140px;
+            }
+
+            p {
+                margin: 10px 80px;
+                color: red;
+            }
+
+            .btn {
+                margin: 0 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-1">
+            <h1>Login</h1>
+            <form action="">
+                <label for="UserName" class="name">UserName</label>
+                <input type="text"> <br>
+                <label for="Password" class="name">Password</label>
+                <input type="password" class="password">
+            </form>
+            <button class="btn">Submit</button>
+            <p>Don't have a account?<a href="signUp.html"><b>SignUp</b></a></p>
+
+        </div>
+    </div>
+</body>
+
+</html>

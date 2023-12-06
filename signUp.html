@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            background-color: rgb(80, 75, 75);
+        }
+
+        .container {
+            height: 680px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container-1 {
+            background-color: rgb(255, 243, 243);
+            border-radius: 10px;
+            border: 2px solid red;
+            /* height: 450px; */
+            height: 500px;
+            width: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            margin-left: 130px;
+            margin-bottom: 10px;
+            color: rgb(80, 75, 75);
+        }
+
+        .name {
+            font-size: 17px;
+            color: rgb(107, 104, 104);
+        }
+
+        .lname {
+            height: 29px;
+            width: 210px;
+        }
+
+        .agree {
+            color: rgb(107, 104, 104);
+        }
+
+        .btn {
+            margin-left: 140px;
+            margin-top: 10px;
+            width: 80px;
+            padding: 10px;
+            border-radius: 15px;
+            background-color: rgb(80, 75, 75);
+            ;
+            color: aliceblue;
+            border: none;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background-color: rgb(88, 84, 84);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-1">
+
+            <form action="">
+                <h1>Sign Up</h1>
+                <table cellspacing="5" cellpadding="10">
+                    <tr>
+                        <td><label for="fname" class="name">First Name</label></td>
+                        <td><input type="text" class="lname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname" class="name">Last Name</label></td>
+                        <td><input type="text" class="lname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname" class="name">Email</label></td>
+                        <td><input type="email" class="lname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password" class="name">Create Password</label></td>
+                        <td><input type="passwords" class="lname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password" class="name">Confirm Password</label></td>
+                        <td><input type="passwords" class="lname"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="check" class="tandc"><label for="t&c" class="agree">Agree to
+                                T&C</label>
+                        </td>
+                    </tr>
+                </table>
+                <button class="btn">Create</button>
+            </form>
+
+
+        </div>
+</body>
+
+</html>
